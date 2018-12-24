@@ -3,7 +3,7 @@
 module Main (main) where
 
 import Codec.Picture (writePng)
-import Codec.Picture.Types (createMutableImage, Image, MutableImage(..), Pixel, PixelRGB8(..), unsafeFreezeImage, writePixel)
+import Codec.Picture.Types (Image, MutableImage(..), Pixel, PixelRGB8(..), createMutableImage, unsafeFreezeImage, writePixel)
 import Control.Monad (void)
 import Control.Monad.Primitive (PrimMonad, PrimState)
 import Data.Foldable (foldlM)
